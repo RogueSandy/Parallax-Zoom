@@ -1,0 +1,67 @@
+.container{
+  width: 100%;
+  height: 300vh;
+  margin-top: -50vh;
+  position: relative;
+}
+.sticky{
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden
+}
+.el{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container{
+  width: 25vw;
+  height: 25vh;
+  position: relative;
+}
+.image-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.1);
+}
+.el:nth-of-type(2) .image-container{
+  top: -28vh;
+  left: 7.5vw;
+  width: 40vw;
+  height: 25vh;
+}
+.el:nth-of-type(3) .image-container{
+  top: 12.5vh;
+  left: 25.5vw;
+  width: 20vw;
+  height: 50vh;
+}
+.el:nth-of-type(4) .image-container{
+  top: -23vh;
+  left: 38.5vw;
+  width: 15vw;
+  height: 15vh;
+}
+.el:nth-of-type(5) .image-container{
+  top: -12.5vh;
+  left: -25.5vw;
+  width: 20vw;
+  height: 50vh;
+}
+.el:nth-of-type(6) .image-container{
+  top: 28.5vh;
+  left: -2.5vw;
+  width: 30vw;
+  height: 25vh;
+}
+.el:nth-of-type(7) .image-container{
+  top: 23.5vh;
+  left: -30.5vw;
+  width: 20vw;
+  height: 15vh;
+}
