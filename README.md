@@ -1,19 +1,19 @@
-#Parallax Zoom
+# Parallax Zoom
 
 A parallax zoom on scroll website created by Vite+React App
 
-#About
+# About
 
 This website is all about the parallax zoom, where the images scale in different speed from different position on scroll.
 Just created this one cause I saw a little simialr kind of thing in one of the Awwwards website, so I decided to recreate it, and here I am.
 
-#Things Used
+# Things Used
 
 - React.js : for building user interfaces
 - Framer Motion : to animate on scroll
 - Lenis Scroll : to add smooth scroll behavioura
 
-#If you wanna run this to your local computer
+# If you wanna run this to your local computer
 
 - clone the repo to your personal computer
 - run `npm install` to install all the required dependencies
